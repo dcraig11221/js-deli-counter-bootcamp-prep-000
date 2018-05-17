@@ -18,13 +18,11 @@ function currentLine(line) {
   if (line.length < 1) {
     return `The line is currently empty.`
   } else {
-    let newLine = []
-    for (let i = 0; i < line.length; i++) {
-      newLine.push(` ${i+1}. ${line[i]}`)
+return `The line is currently:${line}`
     }
-    return `The line is currently:${newLine}`
+    
   }
-}
+
 
 // function currentLine(line) {
 //   if (line.length < 1) {
