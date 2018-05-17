@@ -18,10 +18,9 @@ function currentLine(line) {
   if (line.length < 1) {
     return `The line is currently empty.`
   } else {
-return `The line is currently:${line}`
-    }
-    
+    return `The line is currently:${line}`
   }
+}
 
 
 // function currentLine(line) {
